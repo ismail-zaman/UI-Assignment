@@ -6,6 +6,7 @@ body{
     width: auto;
     overflow-x: hidden;
     max-width: 2500px;
+    margin:auto;
 
 }
 
@@ -245,7 +246,7 @@ OFFERINGS SECTION
     background-color: white;
     max-width: 31%;
     border-radius: 12px;
-    max-height: 380px;
+    max-height: 50%;
 }
 
 .service-card img{
@@ -595,4 +596,10 @@ footer p{
         margin-bottom: 320px;
     }
     
+}
+
+@media(max-width: 360px){
+    .card-content h4{
+        font-size: 1rem;
+    }
 }
