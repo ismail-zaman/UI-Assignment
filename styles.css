@@ -5,6 +5,7 @@ body{
     margin: 0;
     width: auto;
     overflow-x: hidden;
+    max-width: 2500px;
 
 }
 
@@ -185,6 +186,12 @@ about section
     border-radius: 12px;
     background-image: linear-gradient(to right, #766dff 0%, #88f3ff 100%);
 }
+
+.bar-1{width: 85%;}
+.bar-2{width: 90%;}
+.bar-3{width: 70%;}
+.bar-4{width: 95%;}
+.bar-5{width: 75%;}
 
 .skills h5{
     font-family: 'Roboto', sans-serif;
